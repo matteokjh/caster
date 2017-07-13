@@ -1,0 +1,44 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    flex-wrap: wrap;
+}
+header {
+    display: flex;
+    background-color: #ebc0fd;
+    width: 100%;
+    height: 10%;
+}
+aside#one {
+    display: flex;
+    background-color: #fad0c4;
+    width: 20%;
+    height: 80%;
+    
+}
+aside#two { 
+    display: flex;
+    background-color: #c2e9fb;
+    width: 20%;
+    height: 80%;
+}
+article {
+    display: flex;
+    background-color: #cfd9df;
+    width: 60%;
+    height: 80%;
+}
+footer {
+    display: flex;
+    background-color: #96fbc4;
+    width: 100%;
+    height: 10%;
+}
