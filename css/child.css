@@ -1,0 +1,114 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    font-family:'CamelotDeNadabe42e2d8f1871c';
+    font-weight: normal;
+    line-height: 200%;
+}
+@keyframes move{
+    from{margin-top: -5em;opacity:0;}
+    to{margin-top: 0;opacity:1;}
+}
+ol li {
+    list-style: decimal;
+}
+ul li ul li {
+    list-style: circle;
+}
+ul li ul::before {
+    content: '+';
+    float: right;
+    font-size: 2rem;
+    margin-top: -1em;
+}
+ul li ul {
+    border-top: 1px solid #eee;
+    padding-left: 1em;
+}
+a {
+    display: block;
+    text-decoration: none;
+    line-height: 3.5em;
+    color: black;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+body,html {
+    height: 100%;
+    max-width: 700px;
+    min-width: 500px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+body {
+    background-color: #fff;
+    animation: move 1s;
+}
+div {
+    background-color: #fff;
+    text-align: center;
+}
+h1 {
+    padding: .5em 0;
+    font-size: 3rem;
+    cursor: pointer;
+    line-height: .5em;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 2rem;
+    padding: .5em;
+}
+header {
+    font-family: 'CamelotDeNadabe42e2d8f1871c',monospace;
+    font-size: 4rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 1em 0;
+}
+article {
+    font-family:'CamelotDeNadabe42e2d8f1871c';
+    background-color: #fff;
+    padding: 3em;
+}
+p {
+    line-height: 2rem;
+    padding-bottom: 1em;
+}
+span {
+    font-size: 1.5rem;
+}
+button {
+    outline: none;
+    width: 30%;
+    font-size: 1.5rem;
+    border: none;
+    height: 3em;
+    margin: 2em;
+    border-radius: 40px;
+    background-color: #f3f6f6;
+    transition: all .5s;
+}
+footer {
+    font-family:'CamelotDeNadabe42e2d8f1871c';
+    background-color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    cursor: default;
+    padding-top: 30%;
+    padding-bottom: 3%;
+}
+button:hover {
+    background-color: #c7f5fe;
+}
+blockquote {
+    background-color: #fbfbfb;
+    padding: 1em 0 1em 3em;
+    border-left: 5px solid #ddd;
+}
+hr {
+    color: #eee; 
+    margin: 5em;
+}
