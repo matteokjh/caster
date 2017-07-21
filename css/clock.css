@@ -1,0 +1,21 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    height: 100%;
+    background-color: #FFAAA5;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 708px;
+    margin: 0 auto;
+    background-color: #FFD3B6;
+}
+
+canvas {
+    background-color: #DCEDC1;
+}
