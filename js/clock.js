@@ -68,8 +68,8 @@ function draw( s,m,h ) {
     cxt.stroke();
 
     //时针
-    hourX = 250 + Math.sin(h * 2 * 30 * Math.PI / 360) * 100;
-    hourY = 250 - Math.cos(h * 2 * 30 * Math.PI / 360) * 100;
+    hourX = 250 + ( Math.sin(h * 2 * 30 * Math.PI / 360) + Math.sin(m * 2 * 6 * Math.PI / 360 / 12 ) ) * 100;
+    hourY = 250 - ( Math.cos(h * 2 * 30 * Math.PI / 360) + Math.sin(m * 2 * 6 * Math.PI / 360 / 12 ) ) * 100;
     cxt.beginPath();
     cxt.moveTo(250, 250);
     cxt.lineTo(hourX, hourY);//100
